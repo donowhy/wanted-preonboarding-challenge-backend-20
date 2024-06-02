@@ -1,4 +1,4 @@
-package com.freelancer.userservice.domain.util;
+package com.exception.wanted_june_task.util;
 
 
 import jakarta.persistence.Column;

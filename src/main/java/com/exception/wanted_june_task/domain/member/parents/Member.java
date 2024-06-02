@@ -1,21 +1,19 @@
-package com.exception.wanted_june_task.domain.member.entity;
+package com.exception.wanted_june_task.domain.member.parents;
 
-import com.exception.wanted_june_task.domain.buying.entity.Buying;
 import com.exception.wanted_june_task.util.BaseTimeEntity;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.Inheritance;
-import jakarta.persistence.InheritanceType;
-import jakarta.persistence.OneToMany;
-import lombok.Builder;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.experimental.SuperBuilder;
 
-import java.util.List;
-
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Entity
 public abstract class Member extends BaseTimeEntity {
 
     @Id
@@ -25,5 +23,4 @@ public abstract class Member extends BaseTimeEntity {
     private String name;
     private String email;
     private String password;
-
 }

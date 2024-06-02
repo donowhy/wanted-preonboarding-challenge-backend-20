@@ -1,4 +1,4 @@
-package com.exception.wanted_june_task.domain.seller.service.dto;
+package com.exception.wanted_june_task.domain.member.seller.service.dto;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,4 +1,7 @@
-package com.exception.wanted_june_task.domain.product;
+package com.exception.wanted_june_task.domain.product.repository;
 
-public interface ProductRepository {
+import com.exception.wanted_june_task.domain.product.entity.Product;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ProductRepository extends JpaRepository<Product, Long> {
 }
